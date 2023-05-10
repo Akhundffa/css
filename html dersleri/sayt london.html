@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akhundffa</title>
+    <link rel="stylesheet" href="sayt london.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="main1">
+    <div class="nav">
+        <div>
+            <button class="first_button" onclick="icon()"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+            <div>
+            <button class="second_button"  onclick="icon2()"><i class="fa-solid fa-arrow-left"></i></i></button>   
+            </div>  
+       <div class="list">
+        <ul class="words">
+           <a href="#esas3"><li >London Wiew</li></a> 
+           <a href="#esas5"><li>Big Ben</li></a>
+           <a href="#esas6"><li>Tower Bridge</li></a>
+        </ul>
+    </div>
+
+    </div>
+
+    </div>
+    <div class="kenar">
+    <div class="word">
+        <p class="first_p">Günay Axundova</p> </div>
+    </div>
+
+
+<div class="main2 ">
+    <h1 class="first_h">Section One</h1>
+    <p class="second_p">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati asperiores praesentium quasi aut ducimus sed tempora repellat facere similique. Rerum, impedit minima consequatur esse accusantium odio ea sapiente illo possimus reiciendis illum ab qui distinctio natus eos officia laboriosam! Ab laborum qui fugiat at architecto veniam culpa, minima vel aut ullam! Vel commodi facere voluptatum placeat eum corporis at quasi delectus veniam laboriosam suscipit fugiat, soluta voluptatibus officiis provident quae ab! Assumenda perferendis eveniet dignissimos iusto voluptatibus dolorum, veniam vitae nihil. Numquam placeat fuga, exercitationem nulla ad ab eius rerum doloremque odit voluptas. Inventore voluptate quis praesentium quas, alias aperiam.
+    </p>
+</div>
+
+<div class="main3" id="esas3">
+    <h1 class="second_h">London View</h1>
+</div>
+<div class="main4">
+    <h1 class="third_h">Section Two</h1>
+    <p class="third_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem at iure ipsa explicabo animi cumque, quam eligendi nulla enim fugit, tempore, nesciunt accusamus qui placeat dolorum. Molestiae iste asperiores laudantium recusandae a iusto accusamus totam quis. Minima nesciunt reprehenderit unde voluptatem ad nobis explicabo ut itaque quaerat illo dolore, cumque exercitationem rerum dignissimos reiciendis sunt saepe incidunt fuga nulla eos assumenda est. Quasi eveniet repudiandae commodi consequatur maxime iste consectetur neque nostrum laborum dignissimos maiores sint deleniti praesentium doloribus culpa officiis, veritatis eos quis ea, incidunt sunt aut minus. Odio, ipsam. Commodi natus adipisci iusto porro quo tempore obcaecati voluptatum.</p>
+</div>
+
+<div class="main5" id="esas5">
+    <h1 class="second_h">Big ben</h1>
+</div>
+
+<div class="main4">
+    <h1 class="third_h">Section Three</h1>
+    <p class="third_p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis quod, ipsum nihil maiores doloremque quam neque nulla reiciendis officiis nisi iure temporibus id distinctio recusandae doloribus saepe! Corrupti doloribus soluta asperiores, praesentium voluptas vel cupiditate rerum, hic aperiam aut illum ad obcaecati corporis, earum veniam. Pariatur deserunt, quasi molestias sapiente iusto repellendus, sunt dolor, voluptatem alias blanditiis nulla repudiandae vero exercitationem! Dolorum, autem, perferendis illo perspiciatis asperiores neque dignissimos distinctio quam, assumenda officia officiis minima saepe odio recusandae laboriosam quasi est labore cupiditate. Voluptas possimus dicta ipsum provident facilis aut eligendi! Animi aperiam temporibus quod voluptatum aliquam repellendus sint nobis!
+    </p>
+</div>
+
+<div class="main6">
+    <h1 class="second_h" id="esas6">Tower Bridge</h1>
+</div>
+
+    
+<script>
+    function icon(){
+        let navbar = document.querySelector(".nav");
+        navbar.style.width = "200px";
+        let button2 = document.querySelector(".second_button");
+        let button1 = document.querySelector(".first_button");
+        let list = document.querySelector(".list");
+        let image = document.querySelector(".image");
+        let words = document.querySelector(".words");
+        words.style.display= "block";
+        list.style.display= "block";
+        button1.style.display="none";
+        button2.style.display="block";
+        image.style.display="block";
+    }
+    function icon2(){
+        let navbar = document.querySelector(".nav");
+        navbar.style.width = "0px";
+        let button2 = document.querySelector(".second_button");
+        let button1 = document.querySelector(".first_button");
+        let list = document.querySelector(".list");
+        let image = document.querySelector(".image");
+        list.style.display= "none";
+        button1.style.display="block";
+        button2.style.display="none";
+        image.style.display="none";
+    }
+</script>
+</body>
+</html>

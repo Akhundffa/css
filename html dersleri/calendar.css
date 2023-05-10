@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 450px;
+    height: 520px;
+    margin: auto;
+    border-radius: 3px;
+    margin-top: 60px;
+
+}
+.yazi{
+    text-align: center;
+    padding-top: 36px;
+}
+.mavi{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(35, 212, 212);
+    display: block;
+    color: white;
+    position: relative;
+    
+}
+.qara{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+.aylar{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.aylar div{
+    margin: 3px;
+}
+.gunler{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    padding: 1px;
+    justify-content: center;
+}
+.gunler div{
+    width: 50px;
+    height: 50px;
+    margin: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gunler div:hover{
+    border: 1px solid green;
+}
+.sekkiz{
+    background-color:  rgb(35, 212, 212);
+}

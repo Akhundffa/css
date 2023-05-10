@@ -1,0 +1,21 @@
+thead{
+    background-color: rgb(73, 5, 100);
+    color: white;
+    font-size: 25px;
+}
+table{
+    border: 2px solid black;
+    margin: 100px;
+}
+ tbody tr{
+    text-align: center;
+    background-color: rgb(248, 193, 202);
+    
+}
+ tbody th{
+    background-color: pink;
+}
+tbody{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}

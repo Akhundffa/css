@@ -1,0 +1,17 @@
+ul{
+    font-size:30px;
+    width: 30%; 
+    list-style ;
+    
+}
+li {
+    background-color: rgb(39, 39, 146);
+    color: rgb(219, 64, 147);
+    border: 1px solid black;
+    display: block;
+    
+    
+}
+:hover{
+color: aqua;
+}
